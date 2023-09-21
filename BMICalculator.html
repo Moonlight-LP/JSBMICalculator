@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <script>
+        let calculateBmi = (height, weight) => { const bmi = weight / (height * height)
+        if (bmi < 18.5) {
+            console.log("Your bmi is " + bmi + " , too less.")}
+            else if (bmi < 25) {
+                console.log("Your BMI is " + bmi + " , just right")}
+                else if (bmi < 30) {
+                    console.log("Your BMI is " + bmi + " , too much")}
+                    else {
+                        console.log("Please check your weight and height.")} };
+        calculateBmi(1.69, 65)
+    </script>
+</body>
+</html>
+
+// http://localhost:5500/
